@@ -21,20 +21,20 @@ namespace SomaDeNumeros
             string pergunta = "";
             string escolha = "";
             Console.WriteLine("Programa que soma dois números");
-            
+
             Console.Write("Escvreva o primeiro número:");
             pergunta = Console.ReadLine();
             n1 = Convert.ToDouble(pergunta);
-            
+
             Console.Write("Escreva o segunbdo número:");
             pergunta = Console.ReadLine();
             n2 = Convert.ToDouble(pergunta);
 
             Console.WriteLine("Escolha a operação matemátia ");
-            Console.Write("SOMA [+]");
-            Console.Write("SUBTRAÇÃO [-]");
-            Console.Write("DIVISÃO [/]");
-            Console.Write("MULTIPLICAÇÃO [*]");
+            Console.WriteLine("SOMA [+]");
+            Console.WriteLine("SUBTRAÇÃO [-]");
+            Console.WriteLine("DIVISÃO [/]");
+            Console.WriteLine("MULTIPLICAÇÃO [*]");
             pergunta = Console.ReadLine();
             escolha = Convert.ToString(pergunta);
 
@@ -42,23 +42,36 @@ namespace SomaDeNumeros
             {
                 res = n1 - n2;
                 Console.Write(n1 + "-" + n2 + "=" + res);
-            } else {
+                Console.ReadKey();
 
-                if (escolha == "+"){
+            }
+            else
+            {
+                if (escolha == "+")
+                {
                     res = n1 + n2;
                     Console.Write(n1 + "+" + n2 + "=" + res);
+                    Console.ReadKey();
                 }
-                else (escolha == "*") {
-                    res = n1 * n2;
-                    Console.Write(n1 + "x" + n2 + "=" + res);
+                else
+                {
+                    if (escolha == "*")
+                    {
+                        res = n1 * n2;
+                        Console.Write(n1 + "x" + n2 + "=" + res);
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        res = n1 / n2;
+                        Console.Write(n1 + "/" + n2 + "=" + res);
+                        Console.ReadKey();
+                    }
                 }
+                Console.ReadKey();
 
-                res = n1 / n2;
-                Console.Write(n1 + "/" + n2 + "=" + res);
-                
             }
-            Console.ReadKey();
-
         }
+        
     }
 }
