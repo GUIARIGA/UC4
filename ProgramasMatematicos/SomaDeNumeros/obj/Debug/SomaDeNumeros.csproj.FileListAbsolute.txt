@@ -1,0 +1,6 @@
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\bin\Debug\SomaDeNumeros.exe.config
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\bin\Debug\SomaDeNumeros.exe
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\bin\Debug\SomaDeNumeros.pdb
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\obj\Debug\SomaDeNumeros.csprojAssemblyReference.cache
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\obj\Debug\SomaDeNumeros.exe
+C:\Users\luiz.gaalmeida\source\repos\ProgramasMatematicos\SomaDeNumeros\obj\Debug\SomaDeNumeros.pdb
